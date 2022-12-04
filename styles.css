@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h4 {
+    color: #222;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+}
+
+.section-a {
+    padding: 40px 80px;
+    text-align: center;
+}
+
+.section-b {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+}
+
+.logo {
+    width: 200px;
+}
+
+#nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: whitesmoke;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 10;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(6, 1, 14);
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover{
+    color: #465b52;
+}
+
+#hero {
+    background-image: url("images/wallhaven-4lyx3r.jpg");
+    width: 89%;
+    height: 70vh;
+    margin: auto;
+    background-position: top 25% right 0;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h1 {
+    padding-bottom: 1rem;
+}
+
+#hero button {
+    display: block;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    background: #333;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    border: 3px solid #333;
+    transition: all .35s;
+}
+  
+#hero button:hover{
+    width: 110px;
+    border: 3px solid #333;
+    background: transparent;
+    color: #333;
+}
+
+#bestsellers .bestseller-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+#bestsellers .bestseller-container .box {
+    width: 290px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #bccdbe;
+    border-radius: 20px;
+    margin: 15px 0;
+    cursor: pointer;
+    position: relative;
+}
+
+#bestsellers .bestseller-container .box:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#bestsellers .bestseller-container .box h5{
+    line-height: 1;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#bestsellers .bestseller-container .box h4 {
+    padding-top: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #465b52;
+}
+
+#bestsellers .bestseller-container .box img {
+    width: 270px;
+}
+
+#bestsellers .bestseller-container .box .info {
+    text-align: left;
+}
+
+#bestsellers .bestseller-container .box .cart {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #465b52;
+    font-weight: 500;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+#bestsellers .bestseller-container .box .cart:hover {
+    border-radius: 50px;
+    background-color: #d4e9df;
+    border: 1px solid #465b5228;
+}
+
+#first-purchase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    background-image: url("images/wallhaven-723p5v.png");
+    width: 97%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding-left: 30px;
+    margin: auto;
+}
+
+#first-purchase h4 {
+    color: #465b52;
+    font-size: 20px;
+    font-weight: 400;
+}
+#first-purchase h2 {
+    color: #465b52;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#first-purchase h2 span{
+    color: #7a1313;
+}
+
+#first-purchase button {
+    display: block;
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    background: #333;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+    border: 3px solid #333;
+    transition: all .35s;
+    text-transform: uppercase;
+}
+
+#first-purchase button:hover{
+    width: 140px;
+    border: 3px solid #333;
+    background: transparent;
+    color: #fff;
+}
+
+
+.section-b .logo img {
+    width: 300px;
+    margin: 15px 0 15px 55px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px 20px !important;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 16px 0;
+}
+
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 16px;
+    color: #222;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none;
+    background-color: #222;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination a i {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#product-details {
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+#product-details .product-image {
+    width: 30%;
+    margin-right: 50px;    
+}
+
+#product-details .product-info {
+    width: 50%;
+    padding-top: 30px;
+}
+
+#product-details .product-info h4 {
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+#product-details .product-info h2 {
+    font-size: 26px;
+}
+
+#product-details .product-info input {
+    width: 15%;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#product-details .product-info button {
+        width: 130px;
+        height: 50px;
+        line-height: 50px;
+        text-decoration: none;
+        background: #333;
+        text-align: center;
+        color: #fff;
+        letter-spacing: 1px;
+        border: 3px solid #333;
+        transition: all .35s;
+        text-transform: uppercase;
+}
+
+#product-details .product-info button:hover {
+    width: 140px;
+    border: 3px solid #333;
+    background: transparent;
+    color: #333;
+}
+
+#about-us img{
+    width: 30%;
+    margin-right: 15px;
+}
+
+#about-us {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+}
