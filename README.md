@@ -71,8 +71,7 @@ Grooves Vinyl Shop is a stylish and modern web application that offers a user-fr
 
 Contributions are welcome! If you'd like to contribute, please follow these steps:
 
-Fork the repository.
-Create your feature branch (git checkout -b feature/YourFeature).
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/YourFeature).
-Open a pull request.
+1. Fork the repository. Create your feature branch (git checkout -b feature/YourFeature).
+2. Commit your changes (git commit -m 'Add some feature').
+3. Push to the branch (git push origin feature/YourFeature).
+4. Open a pull request.
