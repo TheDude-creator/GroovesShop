@@ -55,14 +55,16 @@ Grooves Vinyl Shop is a stylish and modern web application that offers a user-fr
   To run this project locally, follow these steps:  
   
 1. Clone the repository   
-  ```
-  git clone https://github.com/TheDude-creator/GroovesShop.git
-	```
+
+```
+git clone https://github.com/TheDude-creator/GroovesShop.git
+```
 
 2. Navigate to the project directory
-  ``` 
-  cd GroovesShop
-	```
+
+``` 
+cd GroovesShop
+```
 
 3. Open `index.html` in your browser to view the webpage
 
